@@ -8,9 +8,14 @@ The build is run natively on aarch64 machines. The server used is :
 - Memory : 32 G
 - CPU : 32 cores
 
-* kubectl version: v1.18.6 
+* kubectl version:
+
+  Client Version: version.Info{Major:"1", Minor:"18", GitVersion:"v1.18.6", GitCommit:"dff82dc0de47299ab66c83c626e08b245ab19037", GitTreeState:"clean", BuildDate:"2020-07-15T16:58:53Z", GoVersion:"go1.13.9", Compiler:"gc", Platform:"linux/arm64"}
+
+  Server Version: version.Info{Major:"1", Minor:"18", GitVersion:"v1.18.13", GitCommit:"4c00c3c459261e8ff3381c1070ddf798f0131956", GitTreeState:"clean", BuildDate:"2020-12-09T11:09:27Z", GoVersion:"go1.13.15", Compiler:"gc", Platform:"linux/arm64"}
 
 * OS: Linux version 4.15.0-128-generic (buildd@bos02-arm64-005) (gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04))
+
 * The kubernetes cluster has one master and two workers.
 
 # Prerequisites
